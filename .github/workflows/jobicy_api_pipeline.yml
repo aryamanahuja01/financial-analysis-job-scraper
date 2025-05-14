@@ -26,4 +26,4 @@ jobs:
 
       - name: Run API Extract/Load Notebook
         run: |
-          jupyter nbconvert --to notebook --execute notebooks/[Source]_API_Extract_Load_Raw.ipynb --output executed_notebook.ipynb
+          jupyter nbconvert --to notebook --execute notebooks/JOBICY_API_Extract_Load_Raw.ipynb --output executed_notebook.ipynb

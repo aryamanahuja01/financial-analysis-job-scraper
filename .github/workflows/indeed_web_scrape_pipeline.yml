@@ -27,4 +27,4 @@ jobs:
         env:
           DB_URL: ${{ secrets.DB_URL }}
         run: |
-          jupyter nbconvert --to notebook --execute your_notebook_name.ipynb --inplace
+          jupyter nbconvert --to notebook --execute INDEED_Web_Scrape_Extrac_Load_Raw.ipynb --inplace
